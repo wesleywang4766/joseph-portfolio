@@ -9,7 +9,7 @@ const Experience = () => {
       <section className="page-width flex flex-col gap-8">
         <h2>Experience</h2>
         <Link
-          href="https://www.linkedin.com/in/joeribreedveld/"
+          href="https://www.linkedin.com/in/joseph-song-994662325/"
           className="flex gap-4"
           target="_blank"
           rel="noopener noreferrer"
@@ -18,34 +18,34 @@ const Experience = () => {
           <span className="underline">View LinkedIn</span>
         </Link>
       </section>
-      <section className="page-width flex flex-col gap-16 md:flex-row md:gap-32">
+      <section className="page-width flex flex-col gap-16 md:gap-32">
         <section className="flex flex-col gap-8">
-          <h3>Work</h3>
-          <ul className="flex flex-col gap-8">
+          <h3>Experience</h3>
+          <ul className="flex flex-col gap-8 md:flex-row md:gap-32">
             <li className="flex flex-col gap-4">
-              <h4 className="font-medium">CanvasHeroes</h4>
-              <p className="text-gray-500">November 2022 - March 2023</p>
-              <p>Frontend Intern</p>
+              <h4 className="font-medium">Quality IT</h4>
+              <p className="text-gray-500">March 2021 - Present</p>
+              <p>Senior Software Engineer</p>
             </li>
             <li className="flex flex-col gap-4">
-              <h4 className="font-medium">oorsprongsdocumenten.nl</h4>
-              <p className="text-gray-500">June 2022 - now</p>
-              <p>Junior Full Stack Developer</p>
+              <h4 className="font-medium">Brain Station 23 PLC</h4>
+              <p className="text-gray-500">February 2019 - June 2021</p>
+              <p>Senior Full Stack Developer</p>
+            </li>
+            <li className="flex flex-col gap-4">
+              <h4 className="font-medium">Infobip</h4>
+              <p className="text-gray-500">November 2017 - January 2020</p>
+              <p>Full Stack Developer</p>
             </li>
           </ul>
         </section>
         <section className="flex flex-col gap-8">
-          <h3>School</h3>
+          <h3>Education</h3>
           <ul className="flex flex-col gap-8">
             <li className="flex flex-col gap-4">
-              <h4 className="font-medium">Mediacollege Nottingham</h4>
-              <p className="text-gray-500">September 2021 - June 2023</p>
-              <p>MBO, Software Developer</p>
-            </li>
-            <li className="flex flex-col gap-4">
-              <h4 className="font-medium">De Nottinghamse MAVO</h4>
-              <p className="text-gray-500">September 2017 - June 2021</p>
-              <p>VMBO-T, cum laude</p>
+              <h4 className="font-medium">University of Nottingham</h4>
+              <p className="text-gray-500">February 2012 - February 2016</p>
+              <p>Bachelor of Science in Computer Science</p>
             </li>
           </ul>
         </section>
