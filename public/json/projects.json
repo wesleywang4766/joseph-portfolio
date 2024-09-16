@@ -1,0 +1,74 @@
+[
+  {
+    "id": "0",
+    "title": "joeribreedveld.com",
+    "img": "/images/projects/joeribreedveld.jpg",
+    "intro": "Portfolio website. The website you are looking at right now",
+    "github": "https://github.com/joeribreedveld/joeribreedveld.com",
+    "live": "https://joeribreedveld.com",
+    "skills": ["Next.js", "TailwindCSS", "TypeScript"],
+    "date": "10-2022",
+    "madeat": "-",
+    "slug": "joeribreedveld"
+  },
+  {
+    "id": "1",
+    "title": "oorsprongsdocumenten.nl",
+    "img": "/images/projects/oorsprongsdocumenten.jpg",
+    "intro": "MERN ecommerce website with support page and admin panel.",
+    "github": "",
+    "live": "https://test.oorsprongsdocumenten.nl",
+    "skills": ["Next.js", "MERN", "TypeScript"],
+    "date": "10-2022",
+    "madeat": "Oorsprongsdocumenten",
+    "slug": "oorsprongsdocumenten"
+  },
+  {
+    "id": "2",
+    "title": "Task Manager API",
+    "img": "/images/projects/taskmanager.jpg",
+    "intro": "CRUD Restful API reusable with other projects.",
+    "github": "https://github.com/joeribreedveld/task-manager-api",
+    "live": "",
+    "skills": ["Node.js", "Express", "MongoDB", "Mongoose"],
+    "date": "6-2022",
+    "madeat": "-",
+    "slug": "taskmanager"
+  },
+  {
+    "id": "3",
+    "title": "Museum Online",
+    "img": "/images/projects/museumonline.jpg",
+    "intro": "HTML CSS museum website.",
+    "github": "https://github.com/joeribreedveld/f1m2-museum-online",
+    "live": "https://32653.hosts1.ma-cloud.nl/F1M2BO/",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "date": "1-2022",
+    "madeat": "Mediacollege Nottingham",
+    "slug": "museumonline"
+  },
+  {
+    "id": "4",
+    "title": "Portfolio Website V1",
+    "img": "/images/projects/portfolio1.jpg",
+    "intro": "My first ever portfolio website.",
+    "github": "https://github.com/joeribreedveld/portfolio-website-v1",
+    "live": "http://32653.hosts1.ma-cloud.nl/JOERI/",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "date": "4-2022",
+    "madeat": "-",
+    "slug": "portfolio1"
+  },
+  {
+    "id": "5",
+    "title": "Portfolio Website V2",
+    "img": "/images/projects/portfolio2.jpg",
+    "intro": "My first portfolio site with Next.js",
+    "github": "https://github.com/joeribreedveld/portfolio-website-v3",
+    "live": "",
+    "skills": ["Next.js", "TypeScript", "Sass"],
+    "date": "6-2022",
+    "madeat": "-",
+    "slug": "portfolio2"
+  }
+]

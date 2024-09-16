@@ -1,0 +1,77 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Base styles */
+@tailwind base;
+
+@layer base {
+    h6 {
+        @apply text-sm
+    }
+
+    h5 {    
+        @apply text-base
+    }
+
+    h4 {
+        @apply text-lg
+    }
+
+    h3 {
+        @apply text-xl
+    }
+
+    h2 {
+        @apply md:text-2xl text-xl
+    }
+
+    h1 {
+        @apply md:text-4xl text-2xl
+    }
+
+    body {
+        @apply font-primary text-[#24292F]
+    }
+}
+
+/* Component styles */
+@tailwind components;
+
+@layer components {
+    .btn {
+        @apply px-8 py-4 default-rounding w-fit 
+    }
+
+    .btn-primary {
+        @apply bg-black text-white font-bold
+    }
+
+    .btn-secondary {
+        @apply border border-black
+    }
+}
+
+/* Utility styles */
+@tailwind utilities;
+
+@layer utilities {
+    .page-width {
+        @apply px-4 sm:px-16 md:max-w-xl lg:max-w-4xl xl:max-w-6xl md:mx-auto w-full;
+    }
+
+    .navbar-width {
+        @apply px-4 sm:px-16 md:px-32 lg:px-64 xl:px-96;
+    }
+
+    .default-rounding {
+        @apply rounded-[0.25rem];
+    }
+
+    .default-shadow {
+        @apply shadow-[0_1px_10px_0_rgba(0,0,0,0.07)];
+    }
+
+    .section-py {
+        @apply md:py-32 py-16
+    }
+}
